@@ -5,7 +5,7 @@ using namespace std;
 // FOR-LOOPS
 #define range(i,a,b) for (size_t i = (a); i <= (b); ++i)
 #define forn(n) for (size_t i = 0; i < (n); ++i)
-#define fore(a) for (const auto& it : (a))
+#define fore(a) for (auto& it : (a))
 #define spFore(a) for (const auto& it : (a)) cout << it << ' '
 #define endlFore(a) for (const auto& it : (a)) cout << it << "\n"
 
